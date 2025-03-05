@@ -58,4 +58,6 @@ Simula el terminal de un cajero automático.
 
 Para hacer el 9 necesitais visitar esta documentacion:  
 https://www.w3schools.com/js/js_strings.asp  
-https://lenguajejs.com/javascript/string/variables-texto/  
+https://lenguajejs.com/javascript/string/variables-texto/ 
+
+Clic aqui para ver el [resultado esperado](https://pastebin.com/raw/QVmtbXhu)
