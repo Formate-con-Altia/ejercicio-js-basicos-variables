@@ -17,6 +17,7 @@
 
 
 
+
 /** ---------------------------------------------- */
 
 variableD = variableD * 2;
@@ -24,3 +25,4 @@ variableD = variableD * 2;
 /**
   * En este punto, que valor tendrá 'variableD'. ¿Por qué? ¿Cómo podrías comprobarlo? Piensa el valor que debería tener antes de mostrar su valor pantalla
   */
+
