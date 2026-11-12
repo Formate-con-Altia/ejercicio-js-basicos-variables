@@ -2,19 +2,36 @@
 
 Completa los siguientes ejercicios según el enunciado que encontrarás en cada uno de ellos mediante un comentario. Te adjunto algunas conceptos básicos sobre programación para que los tengas en cuenta en [este enlace](https://wonderful-penalty-e2f.notion.site/Conceptos-b-sicos-de-programaci-n-3a972078a0308024b8d0d7ade3323e61?pvs=73)
 
-**Uso de la IA** : Usar la funcionalidad de autocompletar de la IA de Visual Studio Code resultará en una experiencia pobre en la asimilación de los conceptos básicos de programación. Se recomienda usarla adecuadamente:
+Recuerda usar el **prompt de clase** cuando necesites ayuda con los ejercicios.
 
-- Pedir que la IA aclare el enunciado de un ejercicio 
-- Ayudar en un primer paso para resolverlo SIN dar la solución directa (se le puede pedir explícitamente)
-- Si se resuelve por completo con la IA -> Preguntar e iterar hasta entender todos los conceptos expuestos por la IA. Borrar el ejercicio y volver a completarlo esta vez sin ayuda de la IA.
+## Ejecutar los ejercicios en el navegador
 
+Cada ejercicio tiene su propio archivo HTML y el código JavaScript está dentro de su etiqueta `<script>`. No necesitas instalar Node.
 
-## Ejecutar los scripts
+1. Abre la carpeta del ejercicio en Visual Studio Code.
+2. Abre `index0.html` con **Live Server**.
+3. Pulsa **F12** y selecciona la pestaña **Consola**.
+4. En Visual Studio Code, lee el enunciado dentro de `<script>` y completa el código del mismo archivo HTML.
+5. Guarda los cambios y comprueba los resultados en la consola. Si es necesario, recarga la página.
+6. Para continuar, abre el HTML del siguiente ejercicio con Live Server.
 
-1. Abre un terminal en Visual Sudio (CTRL + J)
-2. Desde la línea de comandos, ejecutar **node ex1.js**
+| Ejercicio | Archivo que debes abrir y editar |
+| --- | --- |
+| 0 | `index0.html` |
+| 1 | `index1.html` |
+| 1b | `index1b.html` |
+| 2 | `index2.html` |
+| 3 | `index3.html` |
+| 4 | `index4.html` |
+| 5 | `index5.html` |
+| 6 | `index6.html` |
+| 7 | `index7.html` |
+| 8 | `index8.html` |
+| 9 (avanzado) | `index9-avanzado.html` |
 
-Si te aparece [este error](https://oscarm.tinytake.com/media/1873c65?filename=1785063128366_nodejs+not+installked.png&sub_type=thumbnail_preview&type=attachment&width=1196&height=259) como que no tienes instalado **node** , es posible que [tengas que instalarlo](https://nodejs.org/en)
+Los mensajes de `console.log()` aparecen en la **consola**, no dentro de la página. Si aparece un error, consulta su mensaje y la línea indicada para revisar tu código.
+
+En el ejercicio 8 el resultado aparece directamente en la página: simula la pantalla de un cajero automático.
 
 ## ¿Qué debería ver por pantalla?
 
@@ -31,12 +48,17 @@ nombreCompleto: Jose Pérez<br>
 <details>
     <summary><strong>Ver salida esperada</strong></summary>
 
-7
+El número que debe aparecer a continuación debe ser un 5:<br>
+5
 </details>
 
 ### ex1b.
 
-<img src="https://oscarm.tinytake.com/media/1873ee3?filename=1785133936418_TinyTake27-07-2026-08-32-14_639207307364638761.png&sub_type=thumbnail_preview&type=attachment&width=794&height=124" title="Powered by TinyTake Screen Capture"/><br>
+```text
+Valor de la variable 'nombre': Naiara
+Valor de la variable 'copiarNombre': Naiara
+Valor de la variable 'otroNombre': Naiara
+```
 ### ex2. 
 
 Valor de la variableD, apartado 1:  -7  
@@ -72,13 +94,22 @@ Ahora mismo está jugando con su pelota. ¡Es un gato muy feliz!
 
 ### ex8.
 
-El ejercicio 8 **tenéis que ejecutarlo abriéndolo con Live Server**. NO se ejecuta con **node**. 
+Abre `index8.html` directamente con **Live Server**. En este ejercicio el resultado aparece en la página.
 Simula el terminal de un cajero automático.
 
 1. Encuentra el lugar donde se usa JavaScript dentro de un HTML
 2. Inicializa adecuadamente las variables para que en el terminal aparezca tu nombre, el dinero que tienes en el banco y la fecha actual.
 
-![atm](https://oscarm.tinytake.com/media/1735d7e?filename=1741161284170_TinyTake05-03-2025-08-54-43_638767580851737946.png&sub_type=thumbnail_preview&type=attachment&width=479&height=352)
+Ejemplo de resultado al completar tus datos:
+
+```text
+ATM Terminal
+Name: Jose
+Balance: 1500 €
+Date: 13/11/2026
+```
+
+El nombre, el saldo y la fecha dependerán de los valores que asignes a las variables.
 
 ### ex9-avanzado. 
 
